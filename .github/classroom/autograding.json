@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "p1-caso1",
-      "setup": "",
+      "setup": "apt-get install scala",
       "run": "scala p1.scala",
       "input": "hello\r\nelo\r\nmurcielago\r\ngollaperorote\r\npero",
       "output": "gollaperorote",
@@ -12,7 +12,7 @@
     },
     {
       "name": "p1-caso2",
-      "setup": "",
+      "setup": "apt-get install scala",
       "run": "scala p1.scala",
       "input": "a\r\nmuy\r\nmegotri\r\naaandache\r\nluly\r\nlimofer",
       "output": "aaandache",
