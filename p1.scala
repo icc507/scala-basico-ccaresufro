@@ -17,6 +17,7 @@ object PalabraConMasVocales {
 
 
 
+  //comentario 
   def main(args: Array[String]): Unit = {
     println("Ingresa palabras, una por línea. Presiona Ctrl+D (Unix/Linux) o Ctrl+Z (Windows) para finalizar la entrada.")
     
