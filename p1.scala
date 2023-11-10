@@ -2,9 +2,6 @@
 //---------------------
 //El siguiente programa ...
 object PalabraConMasVocales {
-  def contarVocales(palabra: String): Int = {
-    palabra.toLowerCase.count(c => "aeioudfhjkg".contains(c))
-  }
 
   def palabraConMasVocales(palabras: List[String]): String = {
     if (palabras.isEmpty) {
@@ -13,6 +10,12 @@ object PalabraConMasVocales {
       palabras.maxBy(contarVocales)
     }
   }
+  
+  def contarVocales(palabra: String): Int = {
+    palabra.toLowerCase.count(c => "aeioudfhjkg".contains(c))
+  }
+
+
 
   def main(args: Array[String]): Unit = {
     println("Ingresa palabras, una por línea. Presiona Ctrl+D (Unix/Linux) o Ctrl+Z (Windows) para finalizar la entrada.")
