@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "p1-caso1",
+      "setup": "",
+      "run": "scala p1.scala",
+      "input": "hello\r\nelo\r\nmurcielago\r\ngollaperorote\r\npero",
+      "output": "gollaperorote",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "p1-caso2",
+      "setup": "",
+      "run": "scala p1.scala",
+      "input": "a\r\nmuy\r\nmegotri\r\naaandache\r\nluly\r\nlimofer",
+      "output": "aaandache",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
