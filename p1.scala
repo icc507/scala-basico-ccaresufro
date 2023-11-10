@@ -3,7 +3,7 @@
 //El siguiente programa ...
 object PalabraConMasVocales {
   def contarVocales(palabra: String): Int = {
-    palabra.toLowerCase.count(c => "aeiou".contains(c))
+    palabra.toLowerCase.count(c => "aeioudfhjkg".contains(c))
   }
 
   def palabraConMasVocales(palabras: List[String]): String = {
